@@ -1,6 +1,0 @@
-matplotlib
-plotly
-snap
-networkx[default]
-dash
-jupyter-dash
