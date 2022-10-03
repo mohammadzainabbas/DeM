@@ -6,7 +6,7 @@
 - [About the course](#about-course)
   * [Main Topics](#main-topics)
 - [Labs](#labs)
-  * [Lab 01 - NetworkX](#lab-1)
+  * [Lab 01 - Testing Binary Relations](#lab-1)
 - [Setup](#setup)
   * [Create new enviornment](#create-new-env)
   * [Setup `pre-commit` hooks](#setup-pre-commit)
@@ -53,7 +53,7 @@ The main aim of this repository is to keep track of the work we have done in __M
 
 <a id="lab-1" />
 
-#### 3.1. Lab 01 - NetworkX
+#### 3.1. Lab 01 - Testing Binary Relations
 
 [NetworkX](https://networkx.org/) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
 
