@@ -1,0 +1,6 @@
+# Ignore all checkpoints by default
+.ipynb_checkpoints
+
+# Ignore these files
+commit.sh
+update_git.py
