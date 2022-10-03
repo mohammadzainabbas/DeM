@@ -19,13 +19,13 @@
 Before starting further, make sure that you have `conda` (Anaconda) installed (otherwise, create a new env via [virutalenv](#new-env-virtualenv)). We will create a new enviornment for the purpose of our labs:
 
 ```bash
-conda create -n mgma python=3 -y 
+conda create -n decision_modelling python=3 -y 
 ```
 
 and activate it
 
 ```bash
-conda activate mgma
+conda activate decision_modelling
 ```
 
 <a id="new-env-virtualenv" />
@@ -39,14 +39,14 @@ You can create your virtual enviornment without conda as well. In order to do th
 pip install virtualenv
 ```
 
-Now, create your new enviornment called `mgma`
+Now, create your new enviornment called `decision_modelling`
 
 ```bash
-virtualenv -p python3 mgma
+virtualenv -p python3 decision_modelling
 ```
 
 and then activate it via
 
 ```bash
-source mgma/bin/activate
+source decision_modelling/bin/activate
 ```
