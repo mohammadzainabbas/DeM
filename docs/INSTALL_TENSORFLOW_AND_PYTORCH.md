@@ -16,7 +16,7 @@ conda install mamba -n base -c conda-forge
 Now, you can create a new env via
 
 ```bash
-mamba env create -n mgma -f docs/config/mgma_env.yaml
+mamba env create -n decision_modelling -f docs/config/decision_modelling_env.yaml
 ```
 
 ### Installation Commands
