@@ -1,0 +1,17 @@
+name: decision_modelling
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - python=3  ## specify desired version
+  - pip
+  - ipykernel  ## for use with Jupyter
+
+  ## PyPI packages
+  - pip:
+    - matplotlib ## if you want to plot your data
+    - plotly ## if you want to plot your data
+    - snap
+    - networkx[default]
+    - dash
+    - jupyter-dash
