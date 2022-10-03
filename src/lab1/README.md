@@ -1,4 +1,4 @@
-## Lab 01 - NetworkX 👨🏻‍💻
+## Lab 01 - Testing Binary Relations 👨🏻‍💻
 
 ### Table of contents
 
