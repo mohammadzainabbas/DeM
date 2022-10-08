@@ -16,5 +16,5 @@ def print_error(text: str) -> None:
     print(f"[ error ]: {text}")
 
 if __name__ == "__main__":
-    print("This is a module. Please import it.")
+    print_error("This is a module. Please import it.")
     sys.exit(1)
