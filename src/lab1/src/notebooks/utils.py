@@ -100,7 +100,7 @@ def numpy_matrix_to_network_graph(matrix: npmat.matrix) -> nx.Graph:
 
 def plot_graph(graph: Union[npmat.matrix, nx.Graph]) -> None:
     """
-    Prints a matrix
+    Plots a given graph/matrix
 
     Parameters
     ----------
