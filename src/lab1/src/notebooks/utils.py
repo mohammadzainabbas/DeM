@@ -108,6 +108,9 @@ def plot_graph(graph: Union[npmat.matrix, nx.Graph]) -> None:
         A numpy matrix or a network graph
     """
     if isinstance(graph, npmat.matrix):
-        
+        n_row, n_col = graph.shape
+        if n_row != n_col:
+            print_error("The matrix is not square")
+            return
         graph = numpy_matrix_to_network_graph(graph)
     nx.draw(graph, with_labels=True)
