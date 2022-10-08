@@ -109,6 +109,7 @@ def plot_graph(graph: Union[npmat.matrix, nx.Graph]) -> None:
     """
     if isinstance(graph, npmat.matrix):
         n_row, n_col = graph.shape
+        print("hell")
         if n_row != n_col:
             print_error(f"Adjacency matrix not square: nx,ny=({n_row}, {n_col}) [NetworkXError]")
             return
