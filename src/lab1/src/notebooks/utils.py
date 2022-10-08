@@ -19,6 +19,9 @@ if __name__ == "__main__":
     print_error("This is a module. Please import it.")
     sys.exit(1)
 
+import numpy as np
+import numpy.matlib as npmat
+
 # ------------------------ #
 # Helper matrix functions
 # ------------------------ #
