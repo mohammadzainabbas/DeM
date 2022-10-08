@@ -32,4 +32,14 @@ def ReflexiveCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
     matrix = graph_to_matrix(graph)
     return np.all(np.diagonal(matrix) == 1)
 
-    
+def AntisymmetricCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
+    """
+    Checks if the graph/matrix is antisymmetric
+    """
+    matrix = graph_to_matrix(graph)
+    n_row, n_col = matrix.shape
+    for i in range(n_row):
+        for j in range(n_col):
+            if matrix[i, j] == 1 and matrix[j, i] == 1 and i != j:
+                return False
+    return True
