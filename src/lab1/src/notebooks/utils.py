@@ -56,7 +56,7 @@ def get_matrix(n_row: int = 5, n_col: int = 5, low: int = 2, seed: int = 0) -> n
             [0, 0, 0, 0, 1],
             [0, 1, 1, 0, 0]])
     """
-    np.random.seed(seed=seed)
+    # np.random.seed(seed=seed)
     return npmat.asmatrix(np.random.randint(low, size=(n_row, n_col)))
 
 def get_matrix_from_list(list_of_lists: list) -> npmat.matrix:
