@@ -79,3 +79,23 @@ def get_matrix_from_list(list_of_lists: list) -> npmat.matrix:
             [7, 8, 9]])
     """
     return npmat.asmatrix(list_of_lists)
+
+def numpy_matrix_to_network_graph(matrix: npmat.matrix) -> None:
+    """
+    Prints a network graph from a numpy matrix
+
+    Parameters
+    ----------
+    matrix: npmat.matrix
+        A numpy matrix
+    
+    Example
+    -------
+    >>> numpy_matrix_to_network_graph(matrix)
+    """
+    import networkx as nx
+    import matplotlib.pyplot as plt
+
+    G = nx.from_numpy_matrix(matrix)
+    nx.draw(G, with_labels=True)
+    plt.show()
