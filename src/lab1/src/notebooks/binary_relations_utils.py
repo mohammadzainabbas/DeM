@@ -1,10 +1,13 @@
 import numpy as np
 from numpy import matrixlib as npmat
 
+import networkx as nx
+from typing import Union
+
 # ------------------------ #
 # Helper binary relation
 # ------------------------ #
-def CompleteCheck(matrix: npmat.matrix) -> bool:
+def CompleteCheck(graph: Union[npmat.matrix, nx.Graph]) -> bool:
     """
     Checks if the matrix is complete
     """
