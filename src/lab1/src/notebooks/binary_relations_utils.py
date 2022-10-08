@@ -25,12 +25,11 @@ def CompleteCheck(graph: Union[npmat.matrix, nx.Graph]) -> bool:
                 return False
     return True
 
-def ReflexiveCheck(matrix: npmat.matrix) -> bool:
+def ReflexiveCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
     """
-    Checks if the matrix is reflexive
+    Checks if the graph/matrix is reflexive
     """
-    n_row, n_col = matrix.shape
-    for i in range(n_row):
-        if matrix[i, i] == 0:
-            return False
-    return True
+    matrix = graph_to_matrix(graph)
+    return np.all(np.diagonal(matrix) == 1)
+
+    
