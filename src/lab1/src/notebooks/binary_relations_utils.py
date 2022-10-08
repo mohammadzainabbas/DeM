@@ -11,6 +11,10 @@ def CompleteCheck(graph: Union[npmat.matrix, nx.Graph]) -> bool:
     """
     Checks if the matrix is complete
     """
+    if isinstance(graph, nx.Graph):
+        matrix = nx.to_numpy_matrix(graph)
+    else:
+        matrix = graph
     n_row, n_col = matrix.shape
     for i in range(n_row):
         for j in range(n_col):
