@@ -90,10 +90,9 @@ def numpy_matrix_to_network_graph(matrix: npmat.matrix) -> nx.Graph:
     matrix: npmat.matrix
         A numpy matrix
     
-    Example
+    Returns
     -------
-    >>> numpy_matrix_to_network_graph(matrix)
+    nx.Graph
+        A network graph
     """
-
-    
     return nx.from_numpy_matrix(matrix)
