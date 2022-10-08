@@ -98,7 +98,7 @@ def numpy_matrix_to_network_graph(matrix: npmat.matrix) -> nx.Graph:
     """
     return nx.from_numpy_matrix(matrix)
 
-def plot_graph(graph: Union[npmat.matrix, nx.Graph]) -> None:
+def plot_graph(graph: Union[npmat.matrix, nx.Graph], **kwargs: dict) -> None:
     """
     Plots a given graph/matrix
 
@@ -113,4 +113,4 @@ def plot_graph(graph: Union[npmat.matrix, nx.Graph]) -> None:
             print_error(f"Adjacency matrix not square: nx,ny=({n_row}, {n_col}) [NetworkXError]")
             return
         graph = numpy_matrix_to_network_graph(graph)
-    nx.draw(graph, with_labels=True)
+    nx.draw(graph, with_labels=True, **kwargs)
