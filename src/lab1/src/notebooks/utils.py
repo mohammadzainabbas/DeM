@@ -27,6 +27,23 @@ from typing import Union
 # ------------------------ #
 # Helper functions
 # ------------------------ #
+def csv_to_matrix(csv_file: str) -> npmat.matrix:
+    """
+    Returns a matrix from a csv file
+
+    Parameters
+    ----------
+    csv_file: str
+        Filename of the csv file
+    
+    Returns
+    -------
+    npmat.matrix
+        A matrix
+    """
+    import pandas as pd
+    return get_matrix_from_list(pd.read_csv(csv_file).values.tolist())
+
 def excel_to_csv(filename: str) -> None:
     """
     Converts an excel file to a csv file
