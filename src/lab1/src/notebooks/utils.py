@@ -106,12 +106,5 @@ def plot_graph(graph: Union[npmat.matrix, nx.Graph]) -> None:
     ----------
     matrix: npmat.matrix
         A numpy matrix
-    
-    Example
-    -------
-    >>> print_matrix(get_matrix(n_row=3, n_col=3, seed=0))
-    0 1 1
-    1 1 1
-    1 0 0
     """
     print(" ".join([str(i) for i in matrix]))
