@@ -20,7 +20,7 @@ if __name__ == "__main__":
     sys.exit(1)
 
 import numpy as np
-import numpy.matlib as npmat
+from numpy import matrixlib as npmat
 
 # ------------------------ #
 # Helper matrix functions
