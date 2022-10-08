@@ -7,6 +7,12 @@ from typing import Union
 # ------------------------ #
 # Helper binary relation
 # ------------------------ #
+def graph_to_matrix(G: nx.Graph) -> npmat.matrix:
+    """
+    Converts a graph to a matrix
+    """
+    return nx.to_numpy_matrix(G)
+
 def CompleteCheck(graph: Union[npmat.matrix, nx.Graph]) -> bool:
     """
     Checks if the matrix is complete
