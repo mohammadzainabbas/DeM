@@ -95,6 +95,4 @@ def numpy_matrix_to_network_graph(matrix: npmat.matrix) -> None:
     """
     import networkx as nx
     
-    graph = nx.from_numpy_matrix(matrix)
-    nx.draw(graph, with_labels=True)
-    
+    return nx.from_numpy_matrix(matrix)
