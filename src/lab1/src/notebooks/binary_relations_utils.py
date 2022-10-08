@@ -67,3 +67,10 @@ def TransitiveCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
     matrix = graph_to_matrix(graph)
     return np.all(np.linalg.matrix_power(matrix, 3) == matrix)
 
+def NegativetrasiitiveCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
+    """
+    Checks if the graph/matrix is negative transitive
+    """
+    matrix = graph_to_matrix(graph)
+    return np.all(np.linalg.matrix_power(matrix, 3) == 0)
+
