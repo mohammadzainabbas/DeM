@@ -96,3 +96,21 @@ def numpy_matrix_to_network_graph(matrix: npmat.matrix) -> nx.Graph:
         A network graph
     """
     return nx.from_numpy_matrix(matrix)
+
+def print_matrix(matrix: npmat.matrix) -> None:
+    """
+    Prints a matrix
+
+    Parameters
+    ----------
+    matrix: npmat.matrix
+        A numpy matrix
+    
+    Example
+    -------
+    >>> print_matrix(get_matrix(n_row=3, n_col=3, seed=0))
+    0 1 1
+    1 1 1
+    1 0 0
+    """
+    print(" ".join([str(i) for i in matrix]))
