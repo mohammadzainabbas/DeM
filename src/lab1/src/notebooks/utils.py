@@ -25,6 +25,22 @@ import networkx as nx
 from typing import Union
 
 # ------------------------ #
+# Helper functions
+# ------------------------ #
+def excel_to_csv(filename: str) -> None:
+    """
+    Converts an excel file to a csv file
+
+    Parameters
+    ----------
+    filename: str
+        Filename of the excel file
+    """
+    import pandas as pd
+    df = pd.read_excel(filename)
+    df.to_csv(filename.replace(".xlsx", ".csv"), index=False)
+
+# ------------------------ #
 # Helper matrix functions
 # ------------------------ #
 def get_matrix(n_row: int = 5, n_col: int = 5, low: int = 2, seed: int = 0) -> npmat.matrix:
