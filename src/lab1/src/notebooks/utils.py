@@ -117,7 +117,7 @@ def get_matrix_from_list(list_of_lists: list) -> npmat.matrix:
 
 def numpy_matrix_to_network_graph(matrix: npmat.matrix) -> nx.Graph:
     """
-    Prints a network graph from a numpy matrix
+    Convert from a numpy matrix to a network graph
 
     Parameters
     ----------
