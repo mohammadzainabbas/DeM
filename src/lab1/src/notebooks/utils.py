@@ -20,5 +20,42 @@ if __name__ == "__main__":
     sys.exit(1)
 
 # ------------------------ #
-# Helper functions
+# Helper matrix functions
 # ------------------------ #
+def get_matrix(n_row: int = 5, n_col: int = 5, low: int = 2, seed: int = 0) -> npmat.matrix:
+    """
+    Returns a random matrix of a given size
+
+    Parameters
+    ----------
+    n_row: int
+        Number of rows
+    n_col: int
+        Number of columns
+    low: int
+        Lower bound of the random numbers
+    seed: int
+        Seed for the random number generator
+    
+    Returns
+    -------
+    npmat.matrix
+        A random matrix
+    
+    Example
+    -------
+    >>> get_matrix(n_row=n_row, n_col=n_col, seed=0)
+    matrix([[0, 1, 1, 0, 1],
+            [1, 1, 1, 1, 1],
+            [1, 0, 0, 1, 0],
+            [0, 0, 0, 0, 1],
+            [0, 1, 1, 0, 0]])
+    """
+    np.random.seed(seed=seed)
+    return npmat.asmatrix(np.random.randint(low, size=(n_row, n_col)))
+
+def get_matrix_from_list(list_of_lists: list) -> npmat.matrix:
+    """
+    Returns a matrix from a list of lists
+    """
+    return npmat.asmatrix(list_of_lists)
