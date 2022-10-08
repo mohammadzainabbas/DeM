@@ -60,5 +60,22 @@ def get_matrix(n_row: int = 5, n_col: int = 5, low: int = 2, seed: int = 0) -> n
 def get_matrix_from_list(list_of_lists: list) -> npmat.matrix:
     """
     Returns a matrix from a list of lists
+
+    Parameters
+    ----------
+    list_of_lists: list
+        A list of lists
+    
+    Returns
+    -------
+    npmat.matrix
+        A matrix
+    
+    Example
+    -------
+    >>> get_matrix_from_list([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+    matrix([[1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]])
     """
     return npmat.asmatrix(list_of_lists)
