@@ -51,3 +51,12 @@ def SymmetricCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
     matrix = graph_to_matrix(graph)
     return np.all(matrix == matrix.T)
 
+def AntisymmetricCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
+    """
+    Checks if the graph/matrix is antisymmetric
+    """
+    matrix = graph_to_matrix(graph)
+    matrix_sum = matrix + matrix.T
+    check = matrix_sum - np.diag(np.diagonal(matrix_sum))
+    return (np.logical_not(np.any(check == 2))).all()
+
