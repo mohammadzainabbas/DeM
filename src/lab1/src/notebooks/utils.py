@@ -21,6 +21,7 @@ if __name__ == "__main__":
 
 import numpy as np
 from numpy import matrixlib as npmat
+import networkx as nx
 
 # ------------------------ #
 # Helper matrix functions
@@ -93,6 +94,6 @@ def numpy_matrix_to_network_graph(matrix: npmat.matrix) -> None:
     -------
     >>> numpy_matrix_to_network_graph(matrix)
     """
-    import networkx as nx
+
     
     return nx.from_numpy_matrix(matrix)
