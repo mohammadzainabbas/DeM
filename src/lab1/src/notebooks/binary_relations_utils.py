@@ -60,3 +60,10 @@ def AntisymmetricCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
     check = matrix_sum - np.diag(np.diagonal(matrix_sum))
     return (np.logical_not(np.any(check == 2))).all()
 
+def TransitiveCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
+    """
+    Checks if the graph/matrix is transitive
+    """
+    matrix = graph_to_matrix(graph)
+    return np.all(np.linalg.matrix_power(matrix, 3) == matrix)
+
