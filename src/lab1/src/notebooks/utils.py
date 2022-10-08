@@ -107,4 +107,5 @@ def plot_graph(graph: Union[npmat.matrix, nx.Graph]) -> None:
     matrix: npmat.matrix
         A numpy matrix
     """
-    print(" ".join([str(i) for i in matrix]))
+    if isinstance(graph, npmat.matrix): graph = numpy_matrix_to_network_graph(graph)
+    nx.draw(graph, with_labels=True)
