@@ -43,3 +43,11 @@ def AntisymmetricCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
             if matrix[i, j] == 1 and matrix[j, i] == 1 and i != j:
                 return False
     return True
+
+def SymmetricCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
+    """
+    Checks if the graph/matrix is symmetric
+    """
+    matrix = graph_to_matrix(graph)
+    return np.all(matrix == matrix.T)
+
