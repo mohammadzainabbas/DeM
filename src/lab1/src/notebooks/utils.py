@@ -22,6 +22,3 @@ if __name__ == "__main__":
 # ------------------------ #
 # Helper functions
 # ------------------------ #
-
-def get_data_path() -> str:
-    
