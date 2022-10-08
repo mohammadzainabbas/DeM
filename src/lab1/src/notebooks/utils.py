@@ -18,3 +18,10 @@ def print_error(text: str) -> None:
 if __name__ == "__main__":
     print_error("This is a module. Please import it.")
     sys.exit(1)
+
+# ------------------------ #
+# Helper functions
+# ------------------------ #
+
+def get_data_path() -> str:
+    
