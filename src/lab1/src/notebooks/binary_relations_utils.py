@@ -74,3 +74,9 @@ def NegativetrasiitiveCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
     matrix = graph_to_matrix(graph)
     return np.all(np.linalg.matrix_power(matrix, 3) == 0)
 
+def CompleteOrderCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
+    """
+    Checks if the graph/matrix is a complete order
+    """
+    return ReflexiveCheck(graph) and AntisymmetricCheck(graph) and TransitiveCheck(graph)
+
