@@ -22,6 +22,7 @@ if __name__ == "__main__":
 import numpy as np
 from numpy import matrixlib as npmat
 import networkx as nx
+from typing import Union
 
 # ------------------------ #
 # Helper matrix functions
