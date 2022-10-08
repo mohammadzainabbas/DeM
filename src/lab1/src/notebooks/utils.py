@@ -97,7 +97,7 @@ def numpy_matrix_to_network_graph(matrix: npmat.matrix) -> nx.Graph:
     """
     return nx.from_numpy_matrix(matrix)
 
-def print_matrix(matrix: npmat.matrix) -> None:
+def plot_graph(matrix: npmat.matrix) -> None:
     """
     Prints a matrix
 
