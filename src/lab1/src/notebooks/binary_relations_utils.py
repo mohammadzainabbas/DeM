@@ -78,7 +78,7 @@ def CompleteOrderCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
     """
     Checks if the graph/matrix is a complete order
     """
-    return ReflexiveCheck(graph) and AntisymmetricCheck(graph) and TransitiveCheck(graph)
+    return CompleteCheck(graph) and AntisymmetricCheck(graph) and TransitiveCheck(graph)
 
 def CompletePreOrderCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
     """
