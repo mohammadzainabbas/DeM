@@ -86,3 +86,16 @@ def CompletePreOrderCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
     """
     return CompleteCheck(graph) and TransitiveCheck(graph)
 
+def StrictRelation(graph: Union[nx.Graph, npmat.matrix]) -> bool:
+    """
+    Returns a strict relation of a given graph/matrix
+    """
+    matrix = graph_to_matrix(graph)
+    output = matrix.copy()
+
+    for i in range(0,len(matrix)):
+        for j in range(0,len(matrix)):
+            if matrix[i, j] == 1 and matrix[j, i] == 1:
+                output[i, j], output[j, i] = 0, 0
+    return output
+
