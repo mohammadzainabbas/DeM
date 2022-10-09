@@ -99,3 +99,17 @@ def StrictRelation(graph: Union[nx.Graph, npmat.matrix]) -> bool:
                 output[i, j], output[j, i] = 0, 0
     return output
 
+def IndifferenceRelation(graph: Union[nx.Graph, npmat.matrix]) -> bool:
+    """
+    Returns an indifference relation of a given graph/matrix
+    """
+    matrix = graph_to_matrix(graph)
+    output = np.zeros(matrix.shape)
+    for i in range(0,len(matrix)):
+        for j in range(0,len(matrix)):
+            if matrix[i, j] == 1 and matrix[j, i] == 1:
+                output[i, j], output[j, i] = 1, 1
+    return output
+
+
+
