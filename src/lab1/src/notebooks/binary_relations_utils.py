@@ -110,3 +110,33 @@ def IndifferenceRelation(graph: Union[nx.Graph, npmat.matrix]) -> npmat.matrix:
             if matrix[i, j] == 1 and matrix[j, i] == 1:
                 output[i, j], output[j, i] = 1, 1
     return npmat.asmatrix(output)
+
+def Topologicalsorting(graph: Union[nx.Graph, npmat.matrix]) -> list:
+    """
+    Returns a topological sort of a given graph/matrix
+    """
+    
+    def dagCheck(matrix: npmat.matrix) -> bool:
+        matrix -= np.diag(np.diagonal(matrix))
+        matrix_reachable, matrix_reachable_sum = np.identity(len(matrix)), np.zeros(matrix.shape)
+        for i in range(0, len(matrix)):
+            matrix_reachable = matrix_reachable.dot(matrix)
+            matrix_reachable_sum += matrix_reachable
+        return np.all(np.diagonal(matrix_reachable_sum.dot(matrix_reachable_sum)) == 0)
+    
+    matrix = graph_to_matrix(graph)
+
+    if not dagCheck(matrix):
+        print_error("Graph is not a DAG")
+        return
+    
+    topologicalSorting_matrix = matrix - np.diag(np.diagonal(matrix))
+    topologicalSorting_list, original_list = [], list(range(0,len(matrix)))
+    while len(original_list) != 0:
+        sum = topologicalSorting_matrix.sum(axis=1)
+        for i in original_list:
+            if sum[i] == 0:
+                topologicalSorting_list.append(i)
+                topologicalSorting_matrix[:,i] = 0
+                original_list.remove(i)
+    return topologicalSorting_list
