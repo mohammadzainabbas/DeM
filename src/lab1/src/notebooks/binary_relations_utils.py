@@ -86,7 +86,7 @@ def CompletePreOrderCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
     """
     return CompleteCheck(graph) and TransitiveCheck(graph)
 
-def StrictRelation(graph: Union[nx.Graph, npmat.matrix]) -> bool:
+def StrictRelation(graph: Union[nx.Graph, npmat.matrix]) -> npmat.matrix:
     """
     Returns a strict relation of a given graph/matrix
     """
@@ -97,9 +97,9 @@ def StrictRelation(graph: Union[nx.Graph, npmat.matrix]) -> bool:
         for j in range(0,len(matrix)):
             if matrix[i, j] == 1 and matrix[j, i] == 1:
                 output[i, j], output[j, i] = 0, 0
-    return output
+    return npmat.asmatrix(output)
 
-def IndifferenceRelation(graph: Union[nx.Graph, npmat.matrix]) -> bool:
+def IndifferenceRelation(graph: Union[nx.Graph, npmat.matrix]) -> npmat.matrix:
     """
     Returns an indifference relation of a given graph/matrix
     """
@@ -109,7 +109,4 @@ def IndifferenceRelation(graph: Union[nx.Graph, npmat.matrix]) -> bool:
         for j in range(0,len(matrix)):
             if matrix[i, j] == 1 and matrix[j, i] == 1:
                 output[i, j], output[j, i] = 1, 1
-    return output
-
-
-
+    return npmat.asmatrix(output)
