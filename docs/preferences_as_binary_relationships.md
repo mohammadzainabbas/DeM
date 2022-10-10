@@ -115,7 +115,6 @@ def plot_graph(graph: Union[npmat.matrix, nx.Graph], **kwargs: dict) -> None:
     nx.draw(graph, with_labels=True, **kwargs)
 ```
 
-
 ```python
 plot_graph(matrix)
 ```
