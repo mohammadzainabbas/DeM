@@ -379,16 +379,13 @@ def IndifferenceRelation(graph: Union[nx.Graph, npmat.matrix]) -> npmat.matrix:
 IndifferenceRelation(matrix)
 ```
 
-
-
-
-    matrix([[1., 0., 0., 0., 0.],
+```python
+$   matrix([[1., 0., 0., 0., 0.],
             [0., 1., 0., 0., 0.],
             [0., 0., 1., 0., 0.],
             [0., 0., 0., 1., 0.],
             [0., 0., 0., 0., 1.]])
-
-
+```
 
 ### Exercise 13 - Build a Python function `Topologicalsorting` returning a _topological sorting_ of a binary relation.
 
