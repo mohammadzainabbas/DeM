@@ -164,12 +164,9 @@ def ReflexiveCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
 ReflexiveCheck(matrix)
 ```
 
-
-
-
-    True
-
-
+```python
+$ True
+```
 
 ### Exercise 4 - Build a Python function `AsymmetricCheck` testing if a binary relation is _asymmetric_.
 
@@ -217,12 +214,9 @@ def SymmetricCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
 SymmetricCheck(matrix)
 ```
 
-
-
-
-    False
-
-
+```python
+$ False
+```
 
 ### Exercise 6 - Build a Python function `AntisymmetricCheck` testing if a binary relation is _antisymmetric_.
 
