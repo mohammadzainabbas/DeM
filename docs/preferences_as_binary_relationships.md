@@ -261,12 +261,9 @@ def TransitiveCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
 TransitiveCheck(matrix)
 ```
 
-
-
-
-    False
-
-
+```python
+$ False
+```
 
 ### Exercise 8 - Build a Python function `NegativetransitiveCheck` testing if a binary relation is _negativetransitive_.
 
@@ -285,12 +282,9 @@ def NegativetrasiitiveCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
 NegativetrasiitiveCheck(matrix)
 ```
 
-
-
-
-    False
-
-
+```python
+$ False
+```
 
 ### Exercise 9 - Build a Python function `CompleteOrderCheck` testing if a binary relation is a _complete order_.
 
