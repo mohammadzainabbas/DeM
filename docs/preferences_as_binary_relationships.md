@@ -237,12 +237,9 @@ def AntisymmetricCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
 AntisymmetricCheck(matrix)
 ```
 
-
-
-
-    True
-
-
+```python
+$ True
+```
 
 ### Exercise 7 - Build a Python function `TransitiveCheck` testing if a binary relation is _transitive_.
 
