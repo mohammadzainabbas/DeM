@@ -144,12 +144,9 @@ def CompleteCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
 CompleteCheck(matrix)
 ```
 
-
-
-
-    False
-
-
+```python
+$ False
+```
 
 ### Exercise 3 - Build a Python function `ReflexiveCheck` testing if a binary relation is _reflexive_.
 
