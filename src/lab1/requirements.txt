@@ -4,3 +4,4 @@ ipykernel
 openpyxl
 pandas
 numpy
+pulp
