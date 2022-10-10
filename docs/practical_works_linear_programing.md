@@ -35,3 +35,8 @@ $$
 3x + 4y ≤ 25
 $$
 
+||Herb A|Herb B|Healing potential|
+|-|-|-|-|
+|Med 1 requires|3|4|25|
+|Med 2 requires|4|1|20|
+|Total available units|25|10|-|
