@@ -120,7 +120,7 @@ def plot_graph(graph: Union[npmat.matrix, nx.Graph], **kwargs: dict) -> None:
 plot_graph(matrix)
 ```
 
-![png](extra/assets/output_11_0.png)
+![Output](extra/assets/output_11_0.png)
 
 ### Exercise 2 - Build a Python function `CompleteCheck` testing if a binary relation is _complete_.
 
