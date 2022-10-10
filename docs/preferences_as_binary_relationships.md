@@ -302,12 +302,9 @@ def CompleteOrderCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
 CompleteOrderCheck(matrix)
 ```
 
-
-
-
-    False
-
-
+```python
+$ False
+```
 
 ### Exercise 10 - Build a Python function `CompletePreOrderCheck` testing if a binary relation is a _complete pre-order_.
 
@@ -325,12 +322,9 @@ def CompletePreOrderCheck(graph: Union[nx.Graph, npmat.matrix]) -> bool:
 CompletePreOrderCheck(matrix)
 ```
 
-
-
-
-    False
-
-
+```python
+$ False
+```
 
 ### Exercise 11 - Build a Python function `StrictRelation` returning the _strict relation_ part of a binary relation.
 
