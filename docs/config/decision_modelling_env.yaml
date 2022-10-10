@@ -15,3 +15,7 @@ dependencies:
     - networkx[default]
     - dash
     - jupyter-dash
+    - openpyxl
+    - pandas
+    - numpy
+    - pulp

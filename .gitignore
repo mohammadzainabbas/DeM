@@ -1,6 +1,10 @@
 # Ignore all checkpoints by default
 .ipynb_checkpoints
 
+# Ignore all unused files
+.DS_Store
+__pycache__
+
 # Ignore these files
 commit.sh
 update_git.py

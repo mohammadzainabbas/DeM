@@ -3,6 +3,7 @@ from numpy import matrixlib as npmat
 
 import networkx as nx
 from typing import Union
+from .utils import print_error
 
 # ------------------------ #
 # Helper binary relation
