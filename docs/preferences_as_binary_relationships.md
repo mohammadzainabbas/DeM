@@ -374,7 +374,6 @@ def IndifferenceRelation(graph: Union[nx.Graph, npmat.matrix]) -> npmat.matrix:
     return npmat.asmatrix(output)
 ```
 
-
 ```python
 IndifferenceRelation(matrix)
 ```
@@ -422,14 +421,10 @@ def Topologicalsorting(graph: Union[nx.Graph, npmat.matrix]) -> list:
     return topologicalSorting_list
 ```
 
-
 ```python
 Topologicalsorting(matrix)
 ```
 
-
-
-
-    [2, 3, 1, 0, 4]
-
-
+```python
+$   [2, 3, 1, 0, 4]
+```
