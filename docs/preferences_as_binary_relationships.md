@@ -349,16 +349,13 @@ def StrictRelation(graph: Union[nx.Graph, npmat.matrix]) -> npmat.matrix:
 StrictRelation(matrix)
 ```
 
-
-
-
+```python
     matrix([[0, 1, 1, 0, 0],
             [0, 0, 0, 1, 0],
             [0, 0, 0, 0, 0],
             [0, 0, 0, 0, 0],
             [0, 1, 0, 0, 0]])
-
-
+```
 
 ### Exercise 12 - Build a Python function `IndifferenceRelation` returning the _indifference relation_ part of a binary relation.
 
