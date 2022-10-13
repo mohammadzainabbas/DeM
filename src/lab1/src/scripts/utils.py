@@ -147,3 +147,18 @@ def plot_graph(graph: Union[npmat.matrix, nx.Graph], **kwargs: dict) -> None:
             return
         graph = numpy_matrix_to_network_graph(graph)
     nx.draw(graph, with_labels=True, **kwargs)
+
+
+"""
+
+P1 - within 1 km radius
+
+P2 - must visit effiel tower and catacombs
+
+P3 - either visit Notre Dame Cathedral or Sainte Chapelle
+
+P4 - must visit tour montparnasse
+
+P5 - must visit the Pompidou Center if he visits Louvre
+
+"""
