@@ -1,12 +1,12 @@
-\* Paris_Visit_-_Max._number_of_sites_(either_visit_Notre_Dame_Cathedral_or_Sainte_Chapelle) *\
+\* Paris_Visit_-_Max._number_of_sites_(must_visit_effiel_tower_and_catacombs) *\
 Maximize
-Max._number_of_sites: 5 CA + 4 ML
+Max._number_of_sites: 4 CA + 5 TE
 Subject To
-Either_visit_TE_or_CA: CA + TE = 1
-Max._duration: 4.5 CA + 3 ML <= 12
-Max._price: 15.5 CA + 12 ML <= 65
+Max._duration: 3 CA + 4.5 TE <= 12
+Max._price: 12 CA + 15.5 TE <= 65
+Must_visit_CA: CA = 1
+Must_visit_TE: TE = 1
 Binaries
 CA
-ML
 TE
 End
