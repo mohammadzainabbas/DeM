@@ -32,6 +32,11 @@ A decision model provides a way to visualize the sequences of events that can oc
   <img alt="Decision Modelling Process" width="400" src="extra/assets/decision_modelling_process.png" />
 </p>
 
+There are two types of decision models in the literature:
+
+1. Deterministic models
+2. 
+
 The purpose of this course is to study different ways to model a decision model.
 
 <a id="main-topics" />
