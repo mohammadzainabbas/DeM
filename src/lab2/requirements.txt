@@ -1,0 +1,7 @@
+snap
+networkx[default]
+ipykernel
+openpyxl
+pandas
+numpy
+pulp
