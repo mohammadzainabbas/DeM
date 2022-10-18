@@ -17,7 +17,7 @@
 
 In this lab, we focused on testing binary relations (given a matrix/graph to extract binary relations). You could use [NetworkX](https://networkx.org/) to generate a graph/matrix to test different the binary relations.
 
-You can check a detailed work through of this lab [here](https://github.com/mohammadzainabbas/DeM-Lab/blob/main/docs/preferences_as_binary_relationships.md)
+You can check a detailed work through of this lab [here](https://github.com/mohammadzainabbas/DeM-Lab/blob/main/docs/binary_relationships_via_linear_programming.md)
 
 <a id="network-x" />
 
