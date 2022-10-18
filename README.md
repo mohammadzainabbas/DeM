@@ -46,7 +46,6 @@ The purpose of this course is to study different ways to model a _deterministic_
 - [x] Introduction to Decision Modeling
 - [x] Preferences as binary relations
 - [x] Voting rules as Group Decision Making Models
-- [x] Graph analytics & Deep Learning
 
 #
 
@@ -56,6 +55,14 @@ The purpose of this course is to study different ways to model a _deterministic_
 
 The main aim of this repository is to keep track of the work we have done in __Decision Modelling (DeM)__ labs.
 #
+
+<a id="lab-1" />
+
+#### 3.1. Lab 01 - Testing Binary Relations
+
+[NetworkX](https://networkx.org/) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+
+Please checkout lab's details [here](https://github.com/mohammadzainabbas/MGMA-Lab/tree/main/src/lab1) 
 
 <a id="lab-1" />
 
