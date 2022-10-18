@@ -68,7 +68,7 @@ Please checkout lab's details [here](https://github.com/mohammadzainabbas/DeM-La
 
 #### 3.2. Lab 02 - Binary Relations via Linear Programming
 
-This lab focuses on implementing a decision model for some given constraints via _linear programming_. You could use the following python packages for _linear programming_:
+This lab focuses on implementing a decision model for some given constraints via _linear programming_. You could use the following python packages to solve _linear programs_:
 
 - [x] [Linear Programming with Python and PuLP](http://benalexkeen.com/linear-programming-with-python-and-pulp/)
 - [x] [scipy.optimize.linprog](https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.optimize.linprog.html)
