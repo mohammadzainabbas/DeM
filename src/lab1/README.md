@@ -33,13 +33,14 @@ In this lab, we focused on testing binary relations (given a matrix/graph to ext
 
 For the purpose of this lab, we will use _matrix/graph_ datasets. Instead of creating our own graphs (you are more then welcome if you have your own graph datasets), we will use some already existing datasets.
 
+Save your data in this location:
+
 ```txt
 src
 └── lab1
   └── data
     └── data.csv
 ```
-
 
 #
 
