@@ -7,6 +7,7 @@
   * [Main Topics](#main-topics)
 - [Labs](#labs)
   * [Lab 01 - Testing Binary Relations](#lab-1)
+  * [Lab 02 - Binary Relations via Linear Programming](#lab-2)
 - [Setup](#setup)
   * [Create new enviornment](#create-new-env)
   * [Setup `pre-commit` hooks](#setup-pre-commit)
