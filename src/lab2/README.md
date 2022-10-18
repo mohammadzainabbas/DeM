@@ -22,29 +22,6 @@ This lab focuses on implementing a decision model for some given constraints via
 
 You can check a detailed work through of this lab [here](https://github.com/mohammadzainabbas/DeM-Lab/blob/main/docs/binary_relationships_via_linear_programming.md)
 
-<a id="network-x" />
-
-#### 1.1. NetworkX
-
-[NetworkX](https://networkx.org/) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
-
-#
-
-<a id="dataset" />
-
-### 2. Dataset
-
-For the purpose of this lab, we will use _matrix/graph_ datasets. Instead of creating our own graphs (you are more then welcome if you have your own graph datasets), we will use some already existing datasets.
-
-Save your data in this location:
-
-```txt
-src
-└── lab1
-  └── data
-    └── data.csv
-```
-
 #
 
 <a id="setup" />
@@ -55,7 +32,7 @@ If you want to follow along, make sure to clone and `cd` to this lab's directory
 
 ```bash
 git clone https://github.com/mohammadzainabbas/DeM-Lab.git
-cd DeM-Lab/src/lab1
+cd DeM-Lab/src/lab2
 ```
 
 <a id="create-new-env" />
