@@ -64,13 +64,17 @@ In this lab, we focused on testing binary relations (given a matrix/graph to ext
 
 Please checkout lab's details [here](https://github.com/mohammadzainabbas/DeM-Lab/tree/main/src/lab1)
 
-<a id="lab-1" />
+<a id="lab-2" />
 
-#### 3.1. Lab 01 - Testing Binary Relations
+#### 3.2. Lab 02 - Binary Relations via Linear Programming
 
-[NetworkX](https://networkx.org/) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+This lab focuses on implementing a decision model for some given constraints via _linear programming_. You could use the following python packages for _linear programming_:
 
-Please checkout lab's details [here](https://github.com/mohammadzainabbas/MGMA-Lab/tree/main/src/lab1) 
+- [x] Introduction to Decision Modeling
+- [x] Preferences as binary relations
+- [x] Voting rules as Group Decision Making Models
+
+Please checkout lab's details [here](https://github.com/mohammadzainabbas/DeM-Lab/tree/main/src/lab2)
 
 #
 
