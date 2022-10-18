@@ -43,8 +43,8 @@ The purpose of this course is to study different ways to model a _deterministic_
 
 #### 2.1. Main Topics
 
-- [x] Preliminaries, Typology of graphs, Graph analytics measures
-- [x] Basic algorithms: Random walk and Page Rank
+- [x] Introduction to Decision Modeling
+- [x] Preferences as binary relations
 - [x] Label propagation, Community detection, Influence maximisation
 - [x] Graph analytics & Deep Learning
 
