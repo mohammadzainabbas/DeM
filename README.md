@@ -47,8 +47,7 @@ The purpose of this course is to study the main algorithms and their implementat
 
 ### 3. Labs
 
-The main aim of this repository is to keep track of the work we have done in __Massive Graph Management and Analytics (MGMA)__ labs. During this course, we will focus on some basic graph algorithms and see how we can utilise these algorithms to efficiently analyse our data. Since, there exist many similarities between graph theory and network science, you will see us using network science related packages as well.
-
+The main aim of this repository is to keep track of the work we have done in __Decision Modelling (DeM)__ labs.
 #
 
 <a id="lab-1" />
