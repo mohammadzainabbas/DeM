@@ -86,17 +86,17 @@ Please checkout lab's details [here](https://github.com/mohammadzainabbas/DeM-La
 If you want to follow along with the lab exercises, make sure to clone and `cd` to the relevant lab's directory:
 
 ```bash
-git clone https://github.com/mohammadzainabbas/MGMA-Lab.git
-cd MGMA-Lab/src/<lab-of-your-choice>
+git clone https://github.com/mohammadzainabbas/DeM-Lab.git
+cd DeM-Lab/src/<lab-of-your-choice>
 ```
 
-> For e.g: if you want to practice lab # 1, then you should do `cd MGMA-Lab/src/lab1`.
+> For e.g: if you want to practice lab # 1, then you should do `cd DeM-Lab/src/lab1`.
 
 <a id="create-new-env" />
 
 #### 4.1. Create new enviornment
 
-Before starting, you may have to create new enviornment for the lab. Kindly, checkout the [documentation](https://github.com/mohammadzainabbas/MGMA-Lab/blob/main/docs/SETUP_ENV.md) for creating an new environment.
+Before starting, you may have to create new enviornment for the lab. Kindly, checkout the [documentation](https://github.com/mohammadzainabbas/DeM-Lab/blob/main/docs/SETUP_ENV.md) for creating an new environment.
 
 #
 
@@ -110,7 +110,7 @@ pip install -r requirements.txt
 
 #### 4.2. Setup `pre-commit` hooks
 
-In order to setup `pre-commit` hooks, please refer to the [documentation](https://github.com/mohammadzainabbas/MGMA-Lab/blob/main/docs/SETUP_PRE-COMMIT_HOOKS.md).
+In order to setup `pre-commit` hooks, please refer to the [documentation](https://github.com/mohammadzainabbas/DeM-Lab/blob/main/docs/SETUP_PRE-COMMIT_HOOKS.md).
 
 #
 
