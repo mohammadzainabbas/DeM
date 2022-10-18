@@ -72,7 +72,8 @@ This lab focuses on implementing a decision model for some given constraints via
 
 - [x] [Linear Programming with Python and PuLP](http://benalexkeen.com/linear-programming-with-python-and-pulp/)
 - [x] [scipy.optimize.linprog](https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.optimize.linprog.html)
-- [x] Voting rules as Group Decision Making Models
+
+> For more details: checkout this [detailed guidline](https://realpython.com/linear-programming-python/#linear-programming-python-implementation)
 
 Please checkout lab's details [here](https://github.com/mohammadzainabbas/DeM-Lab/tree/main/src/lab2)
 
