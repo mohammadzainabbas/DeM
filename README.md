@@ -32,7 +32,7 @@ A decision model provides a way to visualize the sequences of events that can oc
   <img alt="Decision Modelling Process" width="400" src="extra/assets/decision_modelling_process.png" />
 </p>
 
-The purpose of this course is to study the main algorithms and their implementation on artificial and real data in a distributed environment.
+The purpose of this course is to study different ways to model a decision model.
 
 <a id="main-topics" />
 
