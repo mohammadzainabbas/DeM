@@ -60,7 +60,7 @@ The main aim of this repository is to keep track of the work we have done in __D
 
 #### 3.1. Lab 01 - Testing Binary Relations
 
-In this lab, we focused on testing binary relations (given a matrix/graph to extract binary relations). You could use [NetworkX](https://networkx.org/) to generate a graph/matrix to test all the binary relations.
+In this lab, we focused on testing binary relations (given a matrix/graph to extract binary relations). You could use [NetworkX](https://networkx.org/) to generate a graph/matrix to test different the binary relations.
 
 Please checkout lab's details [here](https://github.com/mohammadzainabbas/DeM-Lab/tree/main/src/lab1)
 
