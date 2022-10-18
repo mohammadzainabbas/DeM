@@ -70,7 +70,7 @@ Please checkout lab's details [here](https://github.com/mohammadzainabbas/DeM-La
 
 This lab focuses on implementing a decision model for some given constraints via _linear programming_. You could use the following python packages for _linear programming_:
 
-- [x] Introduction to Decision Modeling
+- [x] [Linear Programming with Python and PuLP](http://benalexkeen.com/linear-programming-with-python-and-pulp/)
 - [x] Preferences as binary relations
 - [x] Voting rules as Group Decision Making Models
 
