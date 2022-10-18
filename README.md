@@ -18,7 +18,7 @@
 
 ### 1. Introduction
 
-__Decision modeling__ refers to the use of _mathematical_ or _scientific_ methods to determine an allocation of scarce resources which improves or optimizes the performance of a system.
+[__Decision modeling__](https://www.meiss.com/columbia/en/teaching/1998/summer/B6015/download/lectures/lec1.pdf) refers to the use of _mathematical_ or _scientific_ methods to determine an allocation of scarce resources which improves or optimizes the performance of a system.
 
 #
 
