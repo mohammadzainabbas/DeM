@@ -60,7 +60,7 @@ The main aim of this repository is to keep track of the work we have done in __D
 
 #### 3.1. Lab 01 - Testing Binary Relations
 
-In this lab, we focused on testing binary relations and different 
+In this lab, we focused on testing binary relations 
 [NetworkX](https://networkx.org/) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
 
 Please checkout lab's details [here](https://github.com/mohammadzainabbas/MGMA-Lab/tree/main/src/lab1) 
