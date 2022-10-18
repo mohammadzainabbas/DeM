@@ -26,6 +26,8 @@ __Decision modeling__ refers to the use of _mathematical_ or _scientific_ method
 
 ### 2. About the course
 
+A decision model provides a way to visualize the sequences of events that can occur following alternative decisions (or actions) in a logical framework.
+
 <p align="center">
   <img alt="Decision Modelling Process" width="400" src="extra/assets/decision_modelling_process.png" />
 </p>
