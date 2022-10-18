@@ -18,7 +18,7 @@
 
 ### 1. Introduction
 
-__`Data drives the world.`__ Nowadays, most of the data (_structured_ or _unstructured_) can be analysed as a graph. Today, many practical computing problems concern large graphs. Standard examples include the Web graph and various social networks. The scale of these graphs (_in some cases billions of vertices, trillions of edges_) poses challenges to their efficient processing.
+__Decision modeling__ refers to the use of _mathematical_ or _scientific_ methods to determine an allocation of scarce resources which improves or optimizes the performance of a system. 
 
 #
 
