@@ -35,9 +35,9 @@ A decision model provides a way to visualize the sequences of events that can oc
 There are two types of decision models in the literature:
 
 1. Deterministic models
-2. 
+2. Probabilistic models
 
-The purpose of this course is to study different ways to model a decision model.
+The purpose of this course is to study different ways to model a _deterministic_ decision model.
 
 <a id="main-topics" />
 
