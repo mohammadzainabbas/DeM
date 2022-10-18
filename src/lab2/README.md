@@ -1,4 +1,4 @@
-## Lab 01 - Testing Binary Relations 👨🏻‍💻
+## Lab 02 - Binary Relations via Linear Programming 👨🏻‍💻
 
 ### Table of contents
 
