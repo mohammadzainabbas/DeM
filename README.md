@@ -45,7 +45,7 @@ The purpose of this course is to study different ways to model a _deterministic_
 
 - [x] Introduction to Decision Modeling
 - [x] Preferences as binary relations
-- [x] Label propagation, Community detection, Influence maximisation
+- [x] Voting rules as Group Decision Making Models
 - [x] Graph analytics & Deep Learning
 
 #
