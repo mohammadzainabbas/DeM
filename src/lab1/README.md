@@ -17,6 +17,8 @@
 
 In this lab, we focused on testing binary relations (given a matrix/graph to extract binary relations). You could use [NetworkX](https://networkx.org/) to generate a graph/matrix to test different the binary relations.
 
+You can check a detailed work through of this lab [here]()
+
 <a id="network-x" />
 
 #### 1.1. NetworkX
