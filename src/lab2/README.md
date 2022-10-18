@@ -15,7 +15,12 @@
 
 ### 1. Introduction
 
-In this lab, we focused on testing binary relations (given a matrix/graph to extract binary relations). You could use [NetworkX](https://networkx.org/) to generate a graph/matrix to test different the binary relations.
+This lab focuses on implementing a decision model for some given constraints via _linear programming_. You could use the following python packages to solve _linear programs_:
+
+- [x] [Linear Programming with Python and PuLP](http://benalexkeen.com/linear-programming-with-python-and-pulp/)
+- [x] [scipy.optimize.linprog](https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.optimize.linprog.html)
+
+> For more details: checkout this [detailed guidline](https://realpython.com/linear-programming-python/#linear-programming-python-implementation)
 
 You can check a detailed work through of this lab [here](https://github.com/mohammadzainabbas/DeM-Lab/blob/main/docs/binary_relationships_via_linear_programming.md)
 
