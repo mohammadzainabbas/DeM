@@ -26,7 +26,7 @@ You can check a detailed work through of this lab [here](https://github.com/moha
 
 <a id="setup" />
 
-### 3. Setup
+### 2. Setup
 
 If you want to follow along, make sure to clone and `cd` to this lab's directory:
 
@@ -37,7 +37,7 @@ cd DeM-Lab/src/lab2
 
 <a id="create-new-env" />
 
-#### 3.1. Create new enviornment
+#### 2.1. Create new enviornment
 
 Before starting, you may have to create new enviornment for the lab. Kindly, checkout the [documentation](https://github.com/mohammadzainabbas/DeM-Lab/blob/main/docs/SETUP_ENV.md) for creating an new environment.
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 <a id="setup-pre-commit" />
 
-#### 3.2. Setup `pre-commit` hooks
+#### 2.2. Setup `pre-commit` hooks
 
 In order to setup `pre-commit` hooks, please refer to the [documentation](https://github.com/mohammadzainabbas/DeM-Lab/blob/main/docs/SETUP_PRE-COMMIT_HOOKS.md).
 
