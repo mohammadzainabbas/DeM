@@ -18,6 +18,8 @@ delta_bis=2;
 
 /* Monotonicity constraints of Peformance criteria */
 up_17 > up_16 + delta_bis;
+up_16 > up_14 + delta_bis;
+up_14 > 
 
 up_17
 up_16
