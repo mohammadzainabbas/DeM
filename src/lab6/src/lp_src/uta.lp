@@ -14,6 +14,10 @@ UK =
 UL = 
 UM = 
 
+delta_bis=2;
+
+/* Monotonicity constraints of Peformance criteria */
+up_17 > up_16 + delta_bis;
 
 up_17
 up_16
